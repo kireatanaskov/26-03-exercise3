@@ -12,7 +12,7 @@ jobs:
         shell: shell
         run: echo Hello World! This is the first job
       - name: the checkout action
-        uses: actions/chcekout@v6
+        uses: actions/checkout@v6
       - name: Print to Log
         id: print-to-log
         uses: actions/hello-world-javascript-action@main
